@@ -1,0 +1,31 @@
+h2{
+    color:white
+}
+.card{
+    background-color:rgb(251,236,220);
+    border-radius: 15px;
+    width: 150px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.image img{
+    width:50px;
+    height:50px;
+    padding-top: 5px;
+}
+
+.image img:hover{
+    width:60px;
+    height:60px;
+}
+
+
+.options{
+    font-size: 15px;
+    padding: 20px 0 0 15px ;
+    
+}

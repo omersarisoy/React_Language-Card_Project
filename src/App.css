@@ -3,5 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(246,219,123);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
 
 }
