@@ -1,10 +1,8 @@
 import { useState } from "react";
 import "./Item.css"
 
-
 const Item = ({card}) => {
 const [showItem, setShowItem] = useState(true)
-
 
   return (
     <div className="card" onClick={() => setShowItem(!showItem)}>
